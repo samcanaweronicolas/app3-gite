@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<title>Día Mundial de la Bicicleta</title>
+
+<!--grupo CSS-->
+<link href="css/tema1.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head><body onLoad="MM_preloadImages('imagenes/transporte2.png','imagenes/bicicleta-nueva.png')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+    <h1> Día Mundial de la Bicicleta</h1>
+   </div>
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Banner Conmemorativo </h1>
+      <div>
+       <p> Esta es mi imagen de una bicicleta: </p>
+       <br>
+      </div>
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/bicicleta-nueva.png',1)"><img src="imagenes/bicicleta.png" width="560" height="449" id="Image26"></a></div>
+      </div>
+     </div>
+    <div>
+     <ul data-role="listview" data-theme="b" class="ul-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Historia de la Bicicleta </h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Utilizacion como medio de transporte </h2>
+      </a>
+       </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class=" ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Tipos de Bicicleta </h2>
+      </a>
+        </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> 5 Marcas importantes de bicicletas</h2>
+      </a>
+        </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Por que se celebra el dia mundial de la bicicleta   </h2>
+      </a>
+     </li>
+     </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <div>
+      <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <div>
+      <h4> Aplicacion Tres </h4>
+      <h4> Nicolas Barrera Canales </h4>
+     </div>
+    </div>
+   </div>
+   <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Historia de la bicicleta </h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+     <h2> La paternidad de la bicicleta se le atribuye al barón Karl Drais, inventor alemán nacido en 1785. Su rudimentario artefacto, creado alrededor de 1817, se impulsaba apoyando los pies alternativamente sobre el suelo. En la actualidad hay más de mil millones de bicicletas en el mundo, utilizadas tanto como medio de transporte. Sus componentes básicos son dos ruedas, generalmente de igual diámetro y dispuestas en línea, un sistema de transmisión de pedales, un cuadro que le da la estructura e integra los componentes, un manillar para controlar la dirección y un sillín para sentarse.  El diseño y la configuración básicos de la bicicleta han cambiado poco desde el primer modelo de transmisión de cadena desarrollado alrededor del año 1885.</h2>
+     <img src="imagenes/historia.png">
+     </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+     <h4> Aplicacion Tres,NBC </h4>
+    </div>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>  Utilizacion como medio de transporte </h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <h2> Utilizar la bicicleta como medio de transporte tiene ventajas las cuales son:</h2>
+     <p>1. Ventajas para la salud.</p>
+     <p>2. Ventajas para el Medio Ambiente.</p>
+     <p>3. Mejora la economía Familiar.</p>
+     <p>4. Ventajas en ahorro de tiempo.</p>
+     <p>5. La bici te hace feliz.</p>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/transporte2.png',1)"><img src="imagenes/transporte1.png" width="253" height="199" id="Image8"></a>
+     </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+    <h4> Aplicacion Tres,NBC </h4>
+   </div>
+   </div>
+  
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Tipos de Bicicleta </h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+      <p>  1.Montaña:Están diseñadas para “fuera de ruta” por lo que son bastante resistentes.Están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos.</p>
+      <p>2.Ruta: Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, delgadas y provistas de llantas angostas y con dibujo liso.</p>
+      <p>3.Híbridas: Estas bicicletas nacieron como una solución para quienes necesitan una bicicleta para la ciudad, pero que tenga la flexibilidad de ser usada en diferentes terrenos.</p>
+      <p>4.Urbanas: Estas bicicletas fueron concebidas para la ciudad, por lo que son de construcción bastante solida tanto en su cuadro como en sus ruedas. Están perfectamente adecuadas para soportar las condiciones de una ciudad (baches, banquetas, topes, etc.)</p>
+      <p>5.Plegables:  Casi todas las plegables están diseñadas para uso urbano, no obstante existen modelos que aguantan viajes largos sin problemas.</p>
+      <p>6.Fixies y single speed: Su principal característica es su diseño simple y en muchos casos minimalista, sumamente eficientes y funcionales.</p>
+      <p>7.Cruisers: Este tipo de bicicletas están diseñadas para trayectos cortos y sobre pavimento preferencialmente.</p>
+      <p>8.MBX: Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias</p>
+      <p>9.Touring: Estas bicicletas se usan para recorrer largas distancias y cargar peso. Sus cuadros son muy robustos e incluyen monturas para instalar rack trasero y delantero</p>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1montana.png" alt="1montana" title="1montana" id="wows1_0"/></li>
+		<li><img src="data1/images/2ruta.png" alt="2ruta" title="2ruta" id="wows1_1"/></li>
+		<li><img src="data1/images/3hibrida.png" alt="3hibrida" title="3hibrida" id="wows1_2"/></li>
+		<li><img src="data1/images/4urbanas.png" alt="4urbanas" title="4urbanas" id="wows1_3"/></li>
+		<li><img src="data1/images/5plegable.png" alt="5plegable" title="5plegable" id="wows1_4"/></li>
+		<li><img src="data1/images/6fixie.png" alt="6fixie" title="6fixie" id="wows1_5"/></li>
+		<li><img src="data1/images/7cruiser.png" alt="7cruiser" title="7cruiser" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/8mbx.png" alt="jquery slider" title="8MBX" id="wows1_7"/></a></li>
+		<li><img src="data1/images/9touring.png" alt="9touring" title="9touring" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1montana"><span><img src="data1/tooltips/1montana.png" alt="1montana"/>1</span></a>
+		<a href="#" title="2ruta"><span><img src="data1/tooltips/2ruta.png" alt="2ruta"/>2</span></a>
+		<a href="#" title="3hibrida"><span><img src="data1/tooltips/3hibrida.png" alt="3hibrida"/>3</span></a>
+		<a href="#" title="4urbanas"><span><img src="data1/tooltips/4urbanas.png" alt="4urbanas"/>4</span></a>
+		<a href="#" title="5plegable"><span><img src="data1/tooltips/5plegable.png" alt="5plegable"/>5</span></a>
+		<a href="#" title="6fixie"><span><img src="data1/tooltips/6fixie.png" alt="6fixie"/>6</span></a>
+		<a href="#" title="7cruiser"><span><img src="data1/tooltips/7cruiser.png" alt="7cruiser"/>7</span></a>
+		<a href="#" title="8MBX"><span><img src="data1/tooltips/8mbx.png" alt="8MBX"/>8</span></a>
+		<a href="#" title="9touring"><span><img src="data1/tooltips/9touring.png" alt="9touring"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      </div>
+      </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+     <h4> Aplicacion Tres, NBC </h4>
+    </div>
+     </div>
+
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> 5 Marcas importantes de bicicletas </h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+      <p> Specialized</p>
+      <p> Trek </p>
+      <p> Merida </p>
+      <p> Scott </p>
+     <p>  Giant </p>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/01specialized.png" alt="01Specialized" title="01Specialized" id="wows1_0"/></li>
+		<li><img src="data1/images/02trek.png" alt="02Trek" title="02Trek" id="wows1_1"/></li>
+		<li><img src="data1/images/03merida.png" alt="03Merida" title="03Merida" id="wows1_2"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/04scott.png" alt="wowslider.net" title="04Scott" id="wows1_3"/></a></li>
+		<li><img src="data1/images/05giant.png" alt="05Giant" title="05Giant" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="01Specialized"><span><img src="data1/tooltips/01specialized.png" alt="01Specialized"/>1</span></a>
+		<a href="#" title="02Trek"><span><img src="data1/tooltips/02trek.png" alt="02Trek"/>2</span></a>
+		<a href="#" title="03Merida"><span><img src="data1/tooltips/03merida.png" alt="03Merida"/>3</span></a>
+		<a href="#" title="04Scott"><span><img src="data1/tooltips/04scott.png" alt="04Scott"/>4</span></a>
+		<a href="#" title="05Giant"><span><img src="data1/tooltips/05giant.png" alt="05Giant"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+     <h4> Aplicacion Tres, NBC </h4>
+    </div>
+    </div>
+    
+    
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Por que se celebra el dia mundial de la bicicleta  </h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+      <h2> El 19 de abril, se celebra el Día Mundial de la Bicicleta con el objetivo de promocionar este medio de transporte y llamar la atención sobre los derechos de los ciclistas.
+
+Se celebra este día, porque el 19 de abril de 1943 el doctor Albert Hofmann, padre del LSD, ingirió a propósito 250 µg de LSD. Tras ingerir la sustancia, Hofmann sintió que le costaba hablar de forma inteligible y pidió a su asistente de laboratorio, que estaba al tanto del experimento, que le acompañase en su viaje a casa en bicicleta. Hofmann, al día siguiente despertó fresco y con la mente clara, aunque con cierto cansancio corporal. Desayunó con una sensación de bienestar y vida renovada, y encontró la comida deliciosa. Mientras caminaba por el jardín, notó que todos sus sentidos “vibraban con una sensibilidad superior”, que duró durante todo el día. </h2>
+<img src="imagenes/archivos/mundialbici.png">
+     </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+     <h4> Aplicacion Tres, NBC </h4>
+    </div>
+</div>
